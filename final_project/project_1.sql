@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 27, 2021 at 01:25 PM
+-- Generation Time: Jun 27, 2021 at 03:00 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -42,6 +42,13 @@ CREATE TABLE `applied_a_user` (
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `applied_a_user`
+--
+
+INSERT INTO `applied_a_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(1, '123415789219', 'Ritu ', 'Halder', '8457923516', 'ritu.halder@gmail.com', 'Taratala kolkata-700056', 'Punjab National Bank', 'Taratala kolkata-700056', 'Ritu Halder', '845623789123');
+
 -- --------------------------------------------------------
 
 --
@@ -61,6 +68,13 @@ CREATE TABLE `applied_bcw_user` (
   `acct_hold_name` text NOT NULL,
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `applied_bcw_user`
+--
+
+INSERT INTO `applied_bcw_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(1, '145236178942', 'Rajdeep ', 'Saha', '7845136945', 'rdsaha@gmail.com', 'Dumdum north Kolkata-700019', 'IDBI Bank', 'Dumdum north Kolkata-700019', 'Rajdeep saha', '45123789945612');
 
 -- --------------------------------------------------------
 
@@ -82,6 +96,13 @@ CREATE TABLE `applied_cdwdsw_user` (
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `applied_cdwdsw_user`
+--
+
+INSERT INTO `applied_cdwdsw_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(1, '784513694213', 'Roshni', 'Sharma', '8745612348', 'roshni@gmail.com', 'Gariahat Kolkata - 700145 ', 'ICICI Bank ', 'Gariahat Kolkata - 700145 ', 'Roshni Sharma', '7845163294561');
+
 -- --------------------------------------------------------
 
 --
@@ -101,6 +122,13 @@ CREATE TABLE `applied_e_user` (
   `acct_hold_name` text NOT NULL,
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `applied_e_user`
+--
+
+INSERT INTO `applied_e_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(2, '784513264456', 'Pratik', 'Deb Barman', '8274835660', 'pratik.deb@gmail.com', 'Baruipur Kolkata-700144', 'Canara Bank', 'Baruipur Kolkata-700144', 'Pratik Deb Barman', '87945612314');
 
 -- --------------------------------------------------------
 
@@ -122,6 +150,13 @@ CREATE TABLE `applied_he_user` (
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `applied_he_user`
+--
+
+INSERT INTO `applied_he_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(3, '213456789123', 'Indranil ', 'Sengupta', '8745691234', 'isg@gmail.com', 'New Alipure Kolkata-700154', 'Canara Bank', 'New Alipure Kolkata-700154', 'Indranil Sengupta', '45137849561');
+
 -- --------------------------------------------------------
 
 --
@@ -141,6 +176,13 @@ CREATE TABLE `applied_hfw_user` (
   `acct_hold_name` text NOT NULL,
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `applied_hfw_user`
+--
+
+INSERT INTO `applied_hfw_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(3, '784512364912', 'Sayan ', 'Nath', '8456123789', 'sn@gmail.com', 'Naihati, West Bengal-700123', 'Punjab National Bank', 'Naihati, West Bengal-700123', 'Sayan Nath', '81245639872');
 
 -- --------------------------------------------------------
 
@@ -162,6 +204,13 @@ CREATE TABLE `applied_pw_user` (
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `applied_pw_user`
+--
+
+INSERT INTO `applied_pw_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(2, '789456134894', 'Avijit', 'Mondal', '8456127567', 'avijit@gmail.com', 'Amtala, West Bengal- 700123', 'Bank of Baroda', 'Amtala, West Bengal- 700123', 'Avijit Mondal', '745137945614');
+
 -- --------------------------------------------------------
 
 --
@@ -181,6 +230,13 @@ CREATE TABLE `applied_school_user` (
   `acct_hold_name` text NOT NULL,
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `applied_school_user`
+--
+
+INSERT INTO `applied_school_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(1, '964578653242', 'Pranab', 'Sah', '9057261234', 'prnab.sah@gmail.com', 'Tollgyunge, T.C Road Kolkata-700001', 'IDBI Bank', 'Tollgyunge, T.C Road Kolkata-700001', 'Parnab Sah', '01234567891283883');
 
 -- --------------------------------------------------------
 
@@ -202,6 +258,13 @@ CREATE TABLE `applied_st_user` (
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `applied_st_user`
+--
+
+INSERT INTO `applied_st_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(3, '845612378945', 'Aloke', 'Naskar', '8456137945', 'aloke123@gmail.com', 'Barce Bridge, kolkata-700145', 'IDFC Bank ', 'Barce Bridge, kolkata-700145', 'Aloke Naskar', '21345678912');
+
 -- --------------------------------------------------------
 
 --
@@ -221,6 +284,13 @@ CREATE TABLE `applied_tevtsd_user` (
   `acct_hold_name` text NOT NULL,
   `acct_number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `applied_tevtsd_user`
+--
+
+INSERT INTO `applied_tevtsd_user` (`id`, `aadhar_number`, `first_name`, `last_name`, `ph_number`, `email_id`, `address`, `bank_name`, `branch`, `acct_hold_name`, `acct_number`) VALUES
+(3, '784512394561', 'Arijit', 'Ghosh', '8456123789', 'arijitghosh@gmail.com', 'New Alipure Kolkata-700012', 'State Bank of India', 'New Alipure Kolkata-700012', 'Arijit Ghosh', '125487946123');
 
 -- --------------------------------------------------------
 
@@ -260,7 +330,15 @@ CREATE TABLE `meet_link` (
 
 INSERT INTO `meet_link` (`meet_link_pk`, `userid`, `meet_link_column`) VALUES
 (1, '', ' on  at '),
-(2, '', ' on  at ');
+(2, '', ' on  at '),
+(3, '', ' on  at '),
+(4, '', ' on  at '),
+(5, '', ' on  at '),
+(6, '', ' on  at '),
+(7, '', ' on  at '),
+(8, 'pranab726', 'https://meet.google.com/dxi-bjrp-ibn on 2021-07-10 at 20:51'),
+(9, '', ' on  at '),
+(10, '', ' on  at ');
 
 -- --------------------------------------------------------
 
@@ -280,7 +358,15 @@ CREATE TABLE `message` (
 
 INSERT INTO `message` (`id`, `userid`, `message_txt`) VALUES
 (1, '', ''),
-(2, '', '');
+(2, '', ''),
+(3, '', ''),
+(4, '', ''),
+(5, '', ''),
+(6, '', ''),
+(7, '', ''),
+(8, 'pranab726', 'Come in the given meeting at the specified time'),
+(9, '', ''),
+(10, '', '');
 
 -- --------------------------------------------------------
 
@@ -322,7 +408,7 @@ CREATE TABLE `register_can` (
 --
 
 INSERT INTO `register_can` (`id`, `name`, `email`, `password`, `status`) VALUES
-(1, 'pranab726', 'pranab.sah@gmail.com', '123456', 'N');
+(1, 'pranab726', 'pranab.sah@gmail.com', '123456', 'V');
 
 -- --------------------------------------------------------
 
@@ -343,16 +429,8 @@ CREATE TABLE `register_docverifier` (
 --
 
 INSERT INTO `register_docverifier` (`id`, `name`, `doc_id`, `email`, `password`) VALUES
-(8, 'p', 'doc14', 'psp@gmail.com', '123'),
-(10, 'p', 'doc14', 'psp@gmail.com', '123'),
-(11, 'p', 'doc14', 'psp@gmail.com', '123'),
-(12, 'p', 'doc14', 'psp@gmail.com', '123'),
-(17, 'p', 'doc12', 'asasi@sS.COM', '123'),
-(19, 'p', 'doc12', 'asasi@sS.COM', '123'),
-(20, 'p', 'doc12', 'asasi@sS.COM', '123'),
-(21, 'p', 'doc12', 'asasi@sS.COM', '123'),
-(22, 'p', 'doc12', 'asasi@sS.COM', '123'),
-(25, 'a', 'doc14', 'snks5j@gmail.com', '123');
+(26, 'Pratik Deb Barman', 'doc123', 'pratik91deb@gmail.com', '123456'),
+(27, 'Pranab Sah', 'doc124', 'sah.pranab@gmail.com', 'pranab');
 
 -- --------------------------------------------------------
 
@@ -833,61 +911,61 @@ ALTER TABLE `tbl_images`
 -- AUTO_INCREMENT for table `applied_a_user`
 --
 ALTER TABLE `applied_a_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `applied_bcw_user`
 --
 ALTER TABLE `applied_bcw_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `applied_cdwdsw_user`
 --
 ALTER TABLE `applied_cdwdsw_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `applied_e_user`
 --
 ALTER TABLE `applied_e_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `applied_he_user`
 --
 ALTER TABLE `applied_he_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `applied_hfw_user`
 --
 ALTER TABLE `applied_hfw_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `applied_pw_user`
 --
 ALTER TABLE `applied_pw_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `applied_school_user`
 --
 ALTER TABLE `applied_school_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `applied_st_user`
 --
 ALTER TABLE `applied_st_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `applied_tevtsd_user`
 --
 ALTER TABLE `applied_tevtsd_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `gov_id_table`
@@ -899,13 +977,13 @@ ALTER TABLE `gov_id_table`
 -- AUTO_INCREMENT for table `meet_link`
 --
 ALTER TABLE `meet_link`
-  MODIFY `meet_link_pk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `meet_link_pk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `message`
 --
 ALTER TABLE `message`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `register_admin`
@@ -923,7 +1001,7 @@ ALTER TABLE `register_can`
 -- AUTO_INCREMENT for table `register_docverifier`
 --
 ALTER TABLE `register_docverifier`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `register_nodal`

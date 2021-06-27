@@ -424,7 +424,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <?php
 
 //$result = mysqli_query($conn,$query);
-$query="SELECT * from applied_a_user ORDER BY id asc";  // For adding doc_id
+$query="SELECT * from applied_e_user ORDER BY id asc";  // For adding doc_id
 echo '<table border="1" cellspacing="2" cellpadding="2"> 
       <tr> 
           <td> <font face="Arial">ID</font> </td> 
@@ -463,7 +463,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 
 <?php $count++; } ?>
 <br><br>
-<h1 style="font-size:150%; solid DodgerBlue;text-transform:uppercase">Applicant details for Agriculture</h1>
+<h1 style="font-size:150%; solid DodgerBlue;text-transform:uppercase">Applicant details for Environment</h1>
 <br><br>
 <?php
 
